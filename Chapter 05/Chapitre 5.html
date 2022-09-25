@@ -23,6 +23,24 @@
 </head>
 <body style="zoom: 150%;">
 
+    <center>
+        <div style="border: blue solid 1px; width: 350px; height: 50px;">
+            Liste des chapitres: <br>
+
+            <select id="chap_select" title="Chapter Navigation" name="chapter" style="margin-top: 5px;" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                <option value="">Select...</option>
+                <option value="../Chapter 00/prologue.html">00. Prologue</option>
+                <option value="../Chapter 01/Chapitre 1.html">01. XYZ</option>
+                <option value="../Chapter 02/Chapitre 2.html">02. SYNCHRO</option>
+                <option value="../Chapter 03/Chapitre 3.html">03. FUSION - PART 1</option>
+                <option value="../Chapter 04/Chapitre 4.html">04. FUSION - PART 2</option>
+                <option value="../Chapter 05/Chapitre 5.html">05. STANDARD - PART 1</option>
+                <option value="../Chapter 06/Chapitre 6.html">06. STANDARD - PART 2</option>
+
+            </select>
+        </div>
+    </center>
+
     <p><center><u>Yugioh: The Power of Four</u></center></p>
 
     <center id="zone1">
@@ -128,7 +146,7 @@
 
             <span id="intSound">
 
-                <audio id="audio1" src="mp3/Subtitle.mp3" autoplay="false" ></audio>
+                <audio id="audio1" src="mp3/Subtitle.mp3"  ></audio>
                 <a onclick="playSound1();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
                 
             </span>
@@ -151,7 +169,7 @@
 
         <span id="intSound">
 
-            <audio id="audio2" src="mp3/voice1.mp3" autoplay="false" ></audio>
+            <audio id="audio2" src="mp3/voice1.mp3"  ></audio>
             <a onclick="playSound2();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -164,7 +182,7 @@
 
         <span id="intSound">
 
-            <audio id="audio3" src="mp3/voice2.mp3" autoplay="false" ></audio>
+            <audio id="audio3" src="mp3/voice2.mp3"  ></audio>
             <a onclick="playSound3();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -175,7 +193,7 @@
 
         <span id="intSound">
 
-            <audio id="audio4" src="mp3/voice3.mp3" autoplay="false" ></audio>
+            <audio id="audio4" src="mp3/voice3.mp3"  ></audio>
             <a onclick="playSound4();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -186,7 +204,7 @@
 
         <span id="intSound">
 
-            <audio id="audio5" src="mp3/voice4.mp3" autoplay="false" ></audio>
+            <audio id="audio5" src="mp3/voice4.mp3"  ></audio>
             <a onclick="playSound5();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span><br>
@@ -204,7 +222,7 @@
 
         <span id="intSound">
 
-            <audio id="audio6" src="mp3/voice5.mp3" autoplay="false" ></audio>
+            <audio id="audio6" src="mp3/voice5.mp3"  ></audio>
             <a onclick="playSound6();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -217,7 +235,7 @@
 
         <span id="intSound">
 
-            <audio id="audio7" src="mp3/voice6.mp3" autoplay="false" ></audio>
+            <audio id="audio7" src="mp3/voice6.mp3"  ></audio>
             <a onclick="playSound7();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -231,7 +249,7 @@
 
         <span id="intSound">
 
-            <audio id="audio8" src="mp3/voice7.mp3" autoplay="false" ></audio>
+            <audio id="audio8" src="mp3/voice7.mp3"  ></audio>
             <a onclick="playSound8();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -242,7 +260,7 @@
 
         <span id="intSound">
 
-            <audio id="audio9" src="mp3/voice8.mp3" autoplay="false" ></audio>
+            <audio id="audio9" src="mp3/voice8.mp3"  ></audio>
             <a onclick="playSound9();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span><br>
@@ -251,7 +269,7 @@
 
         <span id="intSound">
 
-            <audio id="audio10" src="mp3/voice9.mp3" autoplay="false" ></audio>
+            <audio id="audio10" src="mp3/voice9.mp3"  ></audio>
             <a onclick="playSound10();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -294,7 +312,7 @@
 
         <span id="intSound">
 
-            <audio id="audio11" src="mp3/voice10.mp3" autoplay="false" ></audio>
+            <audio id="audio11" src="mp3/voice10.mp3"  ></audio>
             <a onclick="playSound11();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -598,7 +616,7 @@
 
         <span id="intSound">
 
-            <audio id="audio12" src="mp3/voice11.mp3" autoplay="false" ></audio>
+            <audio id="audio12" src="mp3/voice11.mp3"  ></audio>
             <a onclick="playSound12();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -611,7 +629,7 @@
 
         <span id="intSound">
 
-            <audio id="audio13" src="mp3/voice12.mp3" autoplay="false" ></audio>
+            <audio id="audio13" src="mp3/voice12.mp3"  ></audio>
             <a onclick="playSound13();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1016,7 +1034,7 @@
 
             <span id="intSound">
 
-                <audio id="audio14" src="mp3/voice13.mp3" autoplay="false" ></audio>
+                <audio id="audio14" src="mp3/voice13.mp3"  ></audio>
                 <a onclick="playSound14();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
                 
             </span><br><br>
@@ -1036,7 +1054,7 @@
 
         <span id="intSound">
 
-            <audio id="audio15" src="mp3/voice14.mp3" autoplay="false" ></audio>
+            <audio id="audio15" src="mp3/voice14.mp3"  ></audio>
             <a onclick="playSound15();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1053,7 +1071,7 @@
 
         <span id="intSound">
 
-            <audio id="audio16" src="mp3/voice15.mp3" autoplay="false" ></audio>
+            <audio id="audio16" src="mp3/voice15.mp3"  ></audio>
             <a onclick="playSound16();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1066,7 +1084,7 @@
 
         <span id="intSound">
 
-            <audio id="audio17" src="mp3/voice16.mp3" autoplay="false" ></audio>
+            <audio id="audio17" src="mp3/voice16.mp3"  ></audio>
             <a onclick="playSound17();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span><br>
@@ -1082,7 +1100,7 @@
 
         <span id="intSound">
 
-            <audio id="audio18" src="mp3/voice17.mp3" autoplay="false" ></audio>
+            <audio id="audio18" src="mp3/voice17.mp3"  ></audio>
             <a onclick="playSound18();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1100,7 +1118,7 @@
 
         <span id="intSound">
 
-            <audio id="audio19" src="mp3/voice18.mp3" autoplay="false" ></audio>
+            <audio id="audio19" src="mp3/voice18.mp3"  ></audio>
             <a onclick="playSound19();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1114,7 +1132,7 @@
 
         <span id="intSound">
 
-            <audio id="audio20" src="mp3/voice19.mp3" autoplay="false" ></audio>
+            <audio id="audio20" src="mp3/voice19.mp3"  ></audio>
             <a onclick="playSound20();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span><br>
@@ -1147,7 +1165,7 @@
 
         <span id="intSound">
 
-            <audio id="audio21" src="mp3/voice20.mp3" autoplay="false" ></audio>
+            <audio id="audio21" src="mp3/voice20.mp3"  ></audio>
             <a onclick="playSound21();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span><br>
@@ -1161,7 +1179,7 @@
 
         <span id="intSound">
 
-            <audio id="audio22" src="mp3/voice21.mp3" autoplay="false" ></audio>
+            <audio id="audio22" src="mp3/voice21.mp3"  ></audio>
             <a onclick="playSound22();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span><br>
@@ -1173,7 +1191,7 @@
         <span id="intSound">
 
             (Sora: 4000 LP - 1800 LP = 2200 LP)
-            <audio id="audio23" src="mp3/Sound_LP.mp3" autoplay="false" ></audio>
+            <audio id="audio23" src="mp3/Sound_LP.mp3"  ></audio>
             <a onclick="playSound23();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1196,7 +1214,7 @@
 
         <span id="intSound">
 
-            <audio id="audio24" src="mp3/voice22.mp3" autoplay="false" ></audio>
+            <audio id="audio24" src="mp3/voice22.mp3"  ></audio>
             <a onclick="playSound24();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1209,7 +1227,7 @@
 
         <span id="intSound">
 
-            <audio id="audio25" src="mp3/voice23.mp3" autoplay="false" ></audio>
+            <audio id="audio25" src="mp3/voice23.mp3"  ></audio>
             <a onclick="playSound25();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span><br>
@@ -1250,7 +1268,7 @@
         <span id="intSound">
 
             (Sora: 2200 LP - 1800 LP = 400 LP)
-            <audio id="audio23" src="mp3/Sound_LP.mp3" autoplay="false" ></audio>
+            <audio id="audio23" src="mp3/Sound_LP.mp3"  ></audio>
             <a onclick="playSound23();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1262,7 +1280,7 @@
 
         <span id="intSound">
 
-            <audio id="audio26" src="mp3/voice24.mp3" autoplay="false" ></audio>
+            <audio id="audio26" src="mp3/voice24.mp3"  ></audio>
             <a onclick="playSound26();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1275,7 +1293,7 @@
 
         <span id="intSound">
 
-            <audio id="audio27" src="mp3/voice25.mp3" autoplay="false" ></audio>
+            <audio id="audio27" src="mp3/voice25.mp3"  ></audio>
             <a onclick="playSound27();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1300,7 +1318,7 @@
 
         <span id="intSound">
 
-            <audio id="audio28" src="mp3/voice26.mp3" autoplay="false" ></audio>
+            <audio id="audio28" src="mp3/voice26.mp3"  ></audio>
             <a onclick="playSound28();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
         </span>
     </p>
@@ -1401,7 +1419,7 @@
 
         <span id="intSound">
 
-            <audio id="audio29" src="mp3/voice27.mp3" autoplay="false" ></audio>
+            <audio id="audio29" src="mp3/voice27.mp3"  ></audio>
             <a onclick="playSound29();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
         </span>
 
@@ -1414,7 +1432,7 @@
 
             (Death-Toy Scissors Tiger: 1900 + 300 + 300 = 2500 ATK)<br>
             (Death-Toy Mad Chimera: 2800 + 300 + 300 = 3400 ATK)
-            <audio id="audio23" src="mp3/Sound_LP.mp3" autoplay="false" ></audio>
+            <audio id="audio23" src="mp3/Sound_LP.mp3"  ></audio>
             <a onclick="playSound23();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1444,7 +1462,7 @@
 
         <span id="intSound">
 
-            <audio id="audio30" src="mp3/voice28.mp3" autoplay="false" ></audio>
+            <audio id="audio30" src="mp3/voice28.mp3"  ></audio>
             <a onclick="playSound30();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
         </span>
 
@@ -1466,7 +1484,7 @@
 
             (Obelisk Force (V): 4000 LP - 1600 LP = 2400 LP)
             
-            <audio id="audio23" src="mp3/Sound_LP.mp3" autoplay="false" ></audio>
+            <audio id="audio23" src="mp3/Sound_LP.mp3"  ></audio>
             <a onclick="playSound23();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1511,7 +1529,7 @@
         <span id="intSound">
 
             (Death-Toy Mad Chimera: 3400 + 300 = 3700 ATK)
-            <audio id="audio23" src="mp3/Sound_LP.mp3" autoplay="false" ></audio>
+            <audio id="audio23" src="mp3/Sound_LP.mp3"  ></audio>
             <a onclick="playSound23();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1538,7 +1556,7 @@
     <p><b>Obelisk Force (V): Ce sale gosse !</b><br>Disait-il avec dédain.</p>
 
     <p>
-        <b>Sora: Et n'oublie pas que grâce à l'effet de ma carte Magie Continue, </b>
+        <b>Sora: Et n'oubliez pas que grâce à l'effet de ma carte Magie Continue, </b>
         “<a class="imag card spell" ><i>Death Toy Sanctuary</i><span><img class="resize_card" alt="toto" src="img/Sora/FrightfurSanctuary-TDIL-FR-C-1E.png"/></span></a> ”
         <b> elle traite tous mes monstres Fusion comme étant des monstres "Death-Toy". Ce qui signifie que </b>
         “<a class="imag card monsterF" ><i>Triple Bite Hound Dog</i><span><img class="resize_card" alt="toto" src="img/Obelisk_Force/TripleHound.PNG"/></span></a> ”
@@ -1553,7 +1571,7 @@
             (Death-Toy Scissors Tiger: 2500 + 300 = 2800 ATK)<br>
             (Death-Toy Mad Chimera: 3700 + 300 = 4000 ATK)<br>
             (Antique Gear Triple Bite Hound Dog: 1800 + 300 + 300 + 300 = 2700 ATK)
-            <audio id="audio23" src="mp3/Sound_LP.mp3" autoplay="false" ></audio>
+            <audio id="audio23" src="mp3/Sound_LP.mp3"  ></audio>
             <a onclick="playSound23();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1594,7 +1612,7 @@
 
             (Obelisk Force (J): 4000 LP - 2200 LP = 1800 LP)
             
-            <audio id="audio23" src="mp3/Sound_LP.mp3" autoplay="false" ></audio>
+            <audio id="audio23" src="mp3/Sound_LP.mp3"  ></audio>
             <a onclick="playSound23();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1618,7 +1636,7 @@
             (Death-Toy Mad Chimera: 4000 + 300 + 300 = 4600 ATK)<br>
             (Antique Gear Triple Bite Hound Dog (V): 2700 + 300  = 3000 ATK)<br>
             (Antique Gear Triple Bite Hound Dog (J): 1800 + 300 + 300 + 300 + 300 = 3000 ATK)
-            <audio id="audio23" src="mp3/Sound_LP.mp3" autoplay="false" ></audio>
+            <audio id="audio23" src="mp3/Sound_LP.mp3"  ></audio>
             <a onclick="playSound23();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1658,7 +1676,7 @@
 
             (Obelisk Force (R): 4000 LP - 3600 LP = 400 LP)
             
-            <audio id="audio23" src="mp3/Sound_LP.mp3" autoplay="false" ></audio>
+            <audio id="audio23" src="mp3/Sound_LP.mp3"  ></audio>
             <a onclick="playSound23();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1683,7 +1701,7 @@
             (Antique Gear Triple Bite Hound Dog (V): 3000 + 300  = 3300 ATK)
             (Antique Gear Triple Bite Hound Dog (J): 3000 + 300  = 3300 ATK)
             (Antique Gear Hound Dog: 1000 + 300 + 300 + 300 + 300 + 300 = 2500 ATK)
-            <audio id="audio23" src="mp3/Sound_LP.mp3" autoplay="false" ></audio>
+            <audio id="audio23" src="mp3/Sound_LP.mp3"  ></audio>
             <a onclick="playSound23();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1726,7 +1744,7 @@
             (Obelisk Force (V): 2400 LP - 3000 LP = 0 LP)<br>
             (Obelisk Force (J): 1800 LP - 3000 LP = 0 LP)
             
-            <audio id="audio23" src="mp3/Sound_LP.mp3" autoplay="false" ></audio>
+            <audio id="audio23" src="mp3/Sound_LP.mp3"  ></audio>
             <a onclick="playSound23();"><button><img src="img/Speaker_Icon.svg" alt="hautparleur" style="height: 16px; width: 16px;"></button></a>
             
         </span>
@@ -1906,6 +1924,24 @@
 
         </center>
     </p>
+
+    <center>
+        <div style="border: blue solid 1px; width: 350px; height: 50px;">
+            Liste des chapitres: <br>
+
+            <select id="chap_select" title="Chapter Navigation" name="chapter" style="margin-top: 5px;" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                <option value="">Select...</option>
+                <option value="../Chapter 00/prologue.html">00. Prologue</option>
+                <option value="../Chapter 01/Chapitre 1.html">01. XYZ</option>
+                <option value="../Chapter 02/Chapitre 2.html">02. SYNCHRO</option>
+                <option value="../Chapter 03/Chapitre 3.html">03. FUSION - PART 1</option>
+                <option value="../Chapter 04/Chapitre 4.html">04. FUSION - PART 2</option>
+                <option value="../Chapter 05/Chapitre 5.html">05. STANDARD - PART 1</option>
+                <option value="../Chapter 06/Chapitre 6.html">06. STANDARD - PART 2</option>
+
+            </select>
+        </div>
+    </center>
 
 
 </body>
