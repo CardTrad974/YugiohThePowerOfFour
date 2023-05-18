@@ -134,3 +134,36 @@ function show12() {
         document.getElementById('btnID12')
         .style.display = "none";
 }
+
+function show13() {
+
+        /* Access image by id and change
+        the display property to block*/
+        document.getElementById('Dis13')
+        .style.display = "block";
+
+        document.getElementById('btnID13')
+        .style.display = "none";
+}
+
+function show14() {
+
+        /* Access image by id and change
+        the display property to block*/
+        document.getElementById('Dis14')
+        .style.display = "block";
+
+        document.getElementById('btnID14')
+        .style.display = "none";
+}
+
+function show15() {
+
+        /* Access image by id and change
+        the display property to block*/
+        document.getElementById('Dis15')
+        .style.display = "block";
+
+        document.getElementById('btnID15')
+        .style.display = "none";
+}
