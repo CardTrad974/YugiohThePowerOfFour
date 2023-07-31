@@ -400,3 +400,29 @@ audioContr15.onpause = function () {
     }
 
 }
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+var audioContr16 = document.getElementById("audioPlayer16");
+var center16 = document.getElementById("zone16");
+
+audioContr16.onplay = function () {
+
+    if (audioContr16.play){
+        
+        center16.classList.add("audioFixe");
+        audioContr16.loop = true;
+
+    }
+
+}
+
+audioContr16.onpause = function () {
+            
+    if(audioContr16.pause){
+
+        center16.classList.remove("audioFixe");
+        audioContr16.loop = false;
+    }
+
+}
