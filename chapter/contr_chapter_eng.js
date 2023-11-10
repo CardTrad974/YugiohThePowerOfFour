@@ -9,8 +9,8 @@ var chapter = document.getElementById('chap_select_debut').innerHTML =
 "<option value=\"../Chapter_06/Chapter_6.html\">06. STANDARD - PART 2</option>"+
 "<option value=\"../Chapter_07/Chapter_7.html\">07. STANDARD - PART 3</option>"+
 "<option value=\"../Chapter_08/Chapter_8.html\">08. ZEXAL - PART 1</option>"+
-"<option value=\"../Chapter_09/Chapter_9.html\">09. ZEXAL - PART 2</option>";
-// "<option value=\"../Chapter_10/Chapitre_10.html\">10. 5D's - PART 1</option>"+
+"<option value=\"../Chapter_09/Chapter_9.html\">09. ZEXAL - PART 2</option>"+
+"<option value=\"../Chapter_10/Chapter_10.html\">10. 5D's - PART 1</option>";
 // "<option value=\"../Chapter_11/Chapitre_11.html\">11. 5D's - PART 2</option>";
 
 var chapter2 = document.getElementById('chap_select_fin').innerHTML = 
@@ -24,6 +24,6 @@ var chapter2 = document.getElementById('chap_select_fin').innerHTML =
 "<option value=\"../Chapter_06/Chapter_6.html\">06. STANDARD - PART 2</option>"+
 "<option value=\"../Chapter_07/Chapter_7.html\">07. STANDARD - PART 3</option>"+
 "<option value=\"../Chapter_08/Chapter_8.html\">08. ZEXAL - PART 1</option>"+
-"<option value=\"../Chapter_09/Chapter_9.html\">09. ZEXAL - PART 2</option>";
-// "<option value=\"../Chapter_10/Chapitre_10.html\">10. 5D's - PART 1</option>"+
+"<option value=\"../Chapter_09/Chapter_9.html\">09. ZEXAL - PART 2</option>"+
+"<option value=\"../Chapter_10/Chapter_10.html\">10. 5D's - PART 1</option>";
 // "<option value=\"../Chapter_11/Chapitre_11.html\">11. 5D's - PART 2</option>";
