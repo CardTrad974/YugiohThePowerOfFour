@@ -277,3 +277,58 @@ function playSound55() {
   var sound = document.getElementById("audio55");
   sound.play();
 }
+
+function playSound56() {
+  var sound = document.getElementById("audio56");
+  sound.play();
+}
+
+function playSound57() {
+  var sound = document.getElementById("audio57");
+  sound.play();
+}
+
+function playSound58() {
+  var sound = document.getElementById("audio58");
+  sound.play();
+}
+
+function playSound59() {
+  var sound = document.getElementById("audio59");
+  sound.play();
+}
+
+function playSound60() {
+  var sound = document.getElementById("audio60");
+  sound.play();
+}
+
+function playSound61() {
+  var sound = document.getElementById("audio61");
+  sound.play();
+}
+
+function playSound62() {
+  var sound = document.getElementById("audio62");
+  sound.play();
+}
+
+function playSound63() {
+  var sound = document.getElementById("audio63");
+  sound.play();
+}
+
+function playSound64() {
+  var sound = document.getElementById("audio64");
+  sound.play();
+}
+
+function playSound65() {
+  var sound = document.getElementById("audio65");
+  sound.play();
+}
+
+function playSound66() {
+  var sound = document.getElementById("audio66");
+  sound.play();
+}
